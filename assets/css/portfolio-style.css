@@ -1,0 +1,76 @@
+:root {
+    --black-gray: #313131;
+  }
+
+.portfolio-container{
+    height: 100vh;
+    width: 100%;
+    margin: 50px auto;
+   
+   
+     
+
+    backdrop-filter: blur(7px);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50px;
+
+  box-shadow: 0px 35px 68px 0px rgba(0, 0, 0, 0.5),
+    inset 0px -12px 16px 0px rgba(0, 0, 0, 0.6),
+    inset 0px 11px 28px 0px rgb(255, 255, 255);
+
+}
+
+
+.portfolio-container .row{
+    height: 100%;
+    width: 100%;
+
+}
+
+.portfolio-categories{
+    background-color: burlywood;
+    height: 100px;
+    color: blue;
+    margin-bottom: 50px;
+}
+
+.main-portfolio{
+    
+   height: 75%;
+   border: 1px solid black;
+   border-radius: 20px;
+   padding: 20px;
+}
+
+.main-portfolio .row{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow: scroll;
+}
+
+
+.portfolio-block{
+    height: 250px;
+    width: 350px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: var(--black-gray);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+
+    box-shadow: inset 0 0 20px #FFFFFF;
+}
+
+.portfolio-link{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
